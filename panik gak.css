@@ -1,0 +1,130 @@
+    @import url(https://fonts.googleapis.com/css2?family=Poppins);
+
+  *{
+    font-family: 'Poppins';
+    color: blue;
+  }
+
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(foto\ 2.jpg);
+    background-size: cover;
+  
+  }
+  input{
+    margin-top: 20px;
+    
+  }
+
+  .btn {
+      padding-left: 500px;
+  }
+  
+   body .form-login{
+   
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-radius: 20px;
+
+  } 
+
+  body .form-login h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  body .form-login p{
+    text-align: right;
+    margin-top: -8px;
+   }
+
+   body .form-login p .link-lupa-pasword:hover{
+    color: darkgreen;
+   }
+  
+
+   body .form-login p .link-lupa-pasword{
+    text-decoration: none;
+    color: brown;
+    font-size: 16px;
+    font-weight: 400;
+
+   }
+     
+
+  body .form-login input{
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    
+    
+  }
+
+  body .form-login input:hover{
+    background-color: aqua;
+  }
+
+  body .form-login .btn-login{
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    background-color: aqua;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  body .form-login .btn-login:hover{
+    background-color: greenyellow;
+    
+    
+  }
+
+  hr{
+    color: black;
+    background-color: black;
+    height: 1px;
+    border: none;
+  }
+
+  body .form-login .bts-google{
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: black;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 50px;
+    color: blue;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    overflow: hidden;
+   
+  }
+
+  .logo{
+    position: absolute;
+    top: 50%;
+    left: 175px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: auto;
+  }
+
+
+
+
