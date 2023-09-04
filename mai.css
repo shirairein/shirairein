@@ -1,0 +1,34 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --main-bg-color: rgb(21, 119, 119);
+}
+
+.navbar .container-fluid .collapse ul .nav-item {
+  margin-right: 25px;
+}
+.navbar .container-fluid .collapse ul .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar .container-fluid .collapse .d-flex .btn-primary {
+  background-color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+  border-radius: 15px;
+}
+.navbar .container-fluid .collapse .d-flex :hover {
+  border-radius: 15px;
+  background-color: rgb(18, 172, 172);
+}
+
+.head {
+  height: 900px;
+  background-color: rgb(44, 135, 135);
+}
+.head .row .kanan img-fluid {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}/*# sourceMappingURL=mai.css.map */
